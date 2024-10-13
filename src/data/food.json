@@ -1,0 +1,41 @@
+{
+    "thai": [
+      {
+        "imageSrc": "public/placeholder.jpg",
+        "nameTh": "อาหารไทย",
+        "nameEn": "Thai Food",
+        "price": "150"
+      }
+
+    ],
+    "sushi": [
+      {
+        "imageSrc": "public/placeholder.jpg",
+        "nameTh": "ซูชิ",
+        "nameEn": "Sushi",
+        "price": "200"
+      }
+ 
+    ],
+    "desserts": [
+      {
+        "imageSrc": "public/placeholder.jpg",
+        "nameTh": "ขนมหวาน",
+        "nameEn": "Dessert",
+        "price": "100"
+      },
+      {
+        "imageSrc": "public/placeholder.jpg",
+        "nameTh": "ขนมหวาน",
+        "nameEn": "Dessert",
+        "price": "100"
+      },
+      {
+        "imageSrc": "public/placeholder.jpg",
+        "nameTh": "ขนมหวาน",
+        "nameEn": "Dessert",
+        "price": "100"
+      }
+    ]
+  }
+  

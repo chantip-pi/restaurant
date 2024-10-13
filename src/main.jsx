@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import Homepage from './components/Homepage.jsx'
 import Aboutpage from './components/Aboutpage.jsx'
-import MenuPage from './components/MenuPage.jsx'
+import TabbedMenu from './components/TabbedMenu.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "menu",
-    element:<MenuPage />
+    element:<TabbedMenu />
   },
 
 ]);

@@ -8,14 +8,14 @@ function Homepage() {
    <Nav />
    <div style={{ display: 'flex', height: '50vh', width: '100vw' }}>
      <div style={{ flex: 1, overflow: 'hidden' }}>
-        <img src="public/cover.jpg"   style={{
+        <img src="public/placeholder.jpg"   style={{
               width: '100%',
               height: '100%',
               objectFit: 'cover',
             }}></img>
         </div>
    </div>
-    <div style={{flexDirection: 'column', margin: 10  , flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div style={{margin: 50,flexDirection: 'column'  , flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <h1>
             Lorem Ipsum Restuarant
         </h1>
@@ -23,13 +23,19 @@ function Homepage() {
             Authentic Japanese Restaurant
         </p>
     </div>
+    <div style={{
+            flex: 1,
+            height: '1px',
+            backgroundColor: '#ccc', // Color of the lines
+            marginRight: '10px', // Space between line and text
+        }} />
     <div style={{flexDirection: 'column', margin: 50  , flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <h2>
             Special Promotions
         </h2>
     </div>
 
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+    <div style={{margin: 50, display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         <FoodCard
             imageSrc="public/placeholder.jpg"
             nameTh="อาหารไทย"
