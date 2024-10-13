@@ -5,6 +5,12 @@
         "nameTh": "อาหารไทย",
         "nameEn": "Thai Food",
         "price": "150"
+      },
+      {
+        "imageSrc": "public/placeholder.jpg",
+        "nameTh": "ส้มตำ",
+        "nameEn": "Somtam",
+        "price": "150"
       }
 
     ],

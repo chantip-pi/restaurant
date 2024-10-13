@@ -25,7 +25,7 @@ const TabbedMenu = () => {
     </div>
     <div>
       {/* Tabs */}
-      <div style={{ display: 'flex', cursor: 'pointer', marginBottom: '20px',flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div style={{ display: 'flex', cursor: 'pointer', marginBottom: '20px',flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         {Object.keys(foodCategories).map((category) => (
           <div
             key={category}
